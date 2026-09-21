@@ -3,9 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><header>QAZAQ PHOTO 🇰🇿</header> 
+  <title>QAZAQ PHOTO 🇰🇿</title>
 
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       background: #000;
@@ -16,65 +20,15 @@
     header {
       text-align: center;
       padding: 20px;
-      font-size: 26px;
-      font-weight: bold;
-    }
-
-    .photo {
-      margin-bottom: 30px;
-      border-bottom: 1px solid #333;
-      padding-bottom: 20px;
-    }
-
-    .photo img {
-      width: 100%;
-      display: block;
-    }
-
-    .info {
-      padding: 12px 15px;
-    }
-
-    .name {
-      font-size: 20px;
-      font-weight: bold;
-    }
-
-    .text {
-      font-size: 17px;
-      margin-top: 5px;
-    }
-
-    .buttons {
       font-size: 28px;
-      margin-top: 12px;
+      font-weight: bold;
     }
-  </style>
-</head>
 
-<body>
+    .container {
+      padding: 15px;
+    }
 
-<header>QAZAQ PHOTO 🇰🇿</header>
-
-<div class="photo">
-  <img src="photo1.jpg" alt="Фото 1">
-
-  <div class="info">
-    <div class="name">👤 Адам 1</div>
-    <div class="text">Қазақ жастары 🇰🇿</div>
-    <div class="buttons">❤️ 👍 💬 ↗️</div>
-  </div>
-</div>
-
-<div class="photo">
-  <img src="photo2.jpg" alt="Фото 2">
-
-  <div class="info">
-    <div class="name">👤 Адам 2</div>
-    <div class="text">Керемет фото 🔥</div>
-    <div class="buttons">❤️ 👍 💬 ↗️</div>
-  </div>
-</div>
-
-</body>
-</html>
+    input[type="file"] {
+      width: 100%;
+      padding: 15px;
+      background
